@@ -1,0 +1,46 @@
+body { 
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  #content{
+    margin-top:300px;
+    padding:15px 15px 2500px;
+    font-size:30px;
+    color: blanchedalmond;
+    width: 100%;
+}
+
+#header_evidence {
+    background-image: url("evidence2.jpg");
+    text-shadow: 0.05em 0.05em 0.05em rgba(0, 0, 0, 0.4);
+    max-width:100%;
+    max-height:100%;
+    display: block;
+    padding: 350px 10px;
+    color: white;
+    text-align: center;
+    font-size: 90px; 
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    max-width:100%;
+    max-height:100%;
+    transition: 0.3s;
+    width: 100%;
+   height: auto;
+  }
+
+  #box1{
+    width: 40%;
+    float: left;
+  }
+  #box2{
+    width: 60%;
+    float: left;
+  }
+  img{
+      width: 300px;
+      height: 300px;
+  }
