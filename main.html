@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+    
+body,html{margin:0;font-family:Arial;  height: 100%;}
+
+h1{
+  font-family: 'Courier New', Courier, monospace;
+  
+}
+.background_main {
+  /* The image used */
+  background-image: url("../img/iceberg.jpg");
+  /* half height */
+  height: 50%; 
+  display: flex;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#title{
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 6vw;
+  color: white;
+  text-shadow: 0.05em 0.05em 0.05em rgba(0, 0, 0, 0.4);
+  border: 3px black;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #00aeff;
+
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  
+}
+.topnav-right {
+  float: left;
+margin-left: 20%;
+}
+.topnav-left {
+  float: left;
+}
+.topnav-centered {
+  float: center;
+}
+
+
+.topnav .icon {
+  display: none;
+}
+
+.topnav a:hover{
+    background-color: #0273a7;
+  color: white;
+}
+
+
+@media screen and (max-width: 910px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: right;
+  }
+
+ }
+
+</style>
+</head>
+<body>
+<div class="topnav" id="myTopnav">
+
+<a class="active" href="#"><i class="fa fa-globe fa-lg"></i></a> 
+
+  <a href="#news">What's happening and why?</a>
+  <a href="#contact">Impacts on Society</a>
+  <a href="#about">Responses Options</a>
+  <a href="#about">11 facts about climate change</a>
+
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+  
+</div>
+
+<div class="background_main">
+    <h1 id="title">Climate Change</h1>
+</div>
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+</html>
