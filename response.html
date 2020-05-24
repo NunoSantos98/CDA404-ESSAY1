@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../css/style.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+
+</style>
+</head>
+<body>
+    <a href="main.html"><img src="../img/worldwide.png" alt="" class="headerlogo" style="width:5%;height: auto;padding-top: 10px;padding-left:10px"></a>
+    <p class="headerText">climate change</p>
+  
+<div class="topnav" id="myTopnav">
+  <a href></a>
+
+  <a href="whatshappening.html">What's happening and why?</a>
+  <a href="impacts.html">Impacts on Society</a>
+  <a href="response.html" class="active">Responses Options</a>
+  <a href="facts.html">5 facts about climate change</a>
+
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+  
+</div>
+
+<div class="background_response">
+    <h1 id="title_response">Responses Options</h1>
+</div>
+<div id="content">
+<div id="div_1">
+<div id="box1">
+
+<p>The impacts of the United States' global climate change are already being felt and are projected 
+    to intensify in the future, particularly without further action to reduce climate-related risks. 
+    As climate change 's impacts grow, Americans are facing decisions about how to react.</p>
+  
+   <p>Adaptation is known as action to prepare and adapt to changing climate conditions — thus reducing 
+       negative impacts or taking advantage of new opportunities. The other major category of response options —
+        known as mitigation — involves efforts to reduce the amount and velocity of future climate change by
+         reducing emissions or removing carbon dioxide from the atmosphere.Adaptation and mitigation activities are
+          related in several ways and can be seen as complementary strategies — mitigation measures may mitigate potential
+           risks, whereas adaptation will alleviate the impacts of changes already occurring as a consequence of past and
+           current pollution. </p>
+</div>
+<div id="box2">
+<img src="../img/response-2.jpg" class="img-1" >
+</div>
+
+</div>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+
+  if (x.className === "topnav") {
+    x.className += " responsive";
+    document.getElementById("title_response").style.top =" 50%";
+
+
+  } else {
+    x.className = "topnav";
+    document.getElementById("title_response").style.top =" 35%";
+
+  }
+}
+</script>
+
+<div class="push"></div>
+
+<footer class="footer">
+
+    <table style="  padding: 0 10px;">
+      <tr>
+        <td>
+          <h2>Submit to Newsletter</h2>
+          Email:
+        </td>
+        <td></td>
+        </tr>
+        <tr>
+        <td>
+          <form action="/main.html">
+            <label for="fname"></label><br>
+            <input type="email" id="fname" name="fname" value="" validated><br>
+            
+            <input type="submit" value="Submit" onClick='alert("Your changes have been saved");'>
+          </form> 
+        </td">
+        <td ><a href="privacypolicy.html">Privacy Policy</a></td>
+        <tr>
+        <td style="padding-left: 90px;">
+          
+          
+        </td>
+      </tr>
+      
+      
+    </table>
+  
+   
+    
+  
+  </footer>
+
+</body>
+</html>
