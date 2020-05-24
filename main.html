@@ -2,109 +2,20 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../css/style.css">
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 <style>
-    
-body,html{margin:0;font-family:Arial;  height: 100%;}
 
-h1{
-  font-family: 'Courier New', Courier, monospace;
-  
-}
-.background_main {
-  /* The image used */
-  background-image: url("../img/iceberg.jpg");
-  /* half height */
-  height: 50%; 
-  display: flex;
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-#title{
-  position: absolute;
-  left: 50%;
-  top: 30%;
-  transform: translateX(-50%) translateY(-50%);
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 6vw;
-  color: white;
-  text-shadow: 0.05em 0.05em 0.05em rgba(0, 0, 0, 0.4);
-  border: 3px black;
-}
-.topnav {
-  overflow: hidden;
-  background-color: #00aeff;
-
-}
-
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  
-}
-.topnav-right {
-  float: left;
-margin-left: 20%;
-}
-.topnav-left {
-  float: left;
-}
-.topnav-centered {
-  float: center;
-}
-
-
-.topnav .icon {
-  display: none;
-}
-
-.topnav a:hover{
-    background-color: #0273a7;
-  color: white;
-}
-
-
-@media screen and (max-width: 910px) {
-  .topnav a:not(:first-child), .dropdown .dropbtn {
-    display: none;
-  }
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-}
-
-@media screen and (max-width: 910px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: right;
-  }
-
- }
 
 </style>
 </head>
 <body>
+  <a href=""><img src="../img/worldwide.png" alt="" class="headerlogo" style="width:5%;height: auto;padding-top: 10px;padding-left:10px"></a>
+  <p class="headerText">climate change</p>
+  
 <div class="topnav" id="myTopnav">
-
-<a class="active" href="#"><i class="fa fa-globe fa-lg"></i></a> 
+  <a href></a>
 
   <a href="#news">What's happening and why?</a>
   <a href="#contact">Impacts on Society</a>
@@ -118,18 +29,56 @@ margin-left: 20%;
 <div class="background_main">
     <h1 id="title">Climate Change</h1>
 </div>
+<div id="content">
+<div id="div_1">
+<div id="box1">
+  <h1>Understanding what is climate change...</h1>
 
+<p>Climate Change is the defining issue of our time and we are at a defining moment. 
+  From shifting weather patterns that threaten food production, to rising sea levels 
+  that increase the risk of catastrophic flooding, the impacts of climate change are
+   global in scope and unprecedented in scale. Without drastic action today, adapting to 
+   these impacts in the future will be more difficult and costly.</p>
+  
+   <p>The Fourth National Climate Assessment (NCA4), developed by the U.S. Global Change Research Program (USGCRP), is a state-of-the-science synthesis of climate knowledge, impacts, and trends across U.S. regions and sectors to inform
+    decision making and resilience-building activities across the country. It is the most
+    comprehensive and authoritative assessment to date on the state of knowledge
+    of current and future impacts of climate change on society in the United States. 
+  </p>
+</div>
+<div id="box2">
+<img src="../img/main-1.jpg" class="img-1" >
+</div>
+
+</div>
+</div>
 
 <script>
 function myFunction() {
   var x = document.getElementById("myTopnav");
+
   if (x.className === "topnav") {
     x.className += " responsive";
+    document.getElementById("title").style.top =" 50%";
+
+
   } else {
     x.className = "topnav";
+    document.getElementById("title").style.top =" 35%";
+
   }
 }
 </script>
+
+<div class="push"></div>
+
+<footer class="footer">
+  
+<h3>Contact Us</h3>
+<a href="">Privacy Policy</a>
+
+<p><a href="">Contact Us</a></p>
+</footer>
 
 </body>
 </html>
