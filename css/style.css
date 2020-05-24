@@ -69,6 +69,28 @@ margin-left: 20%;
   background-repeat: no-repeat;
   background-size: cover;
 }
+.background_whats {
+  /* The image used */
+  background-image: url("../img/what-1.jpg");
+  /* half height */
+  height: 50%; 
+  display: flex;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.background_impacts {
+  /* The image used */
+  background-image: url("../img/impacts-1.jpg");
+  /* half height */
+  height: 50%; 
+  display: flex;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 #title{
   position: absolute;
   left: 50%;
@@ -81,18 +103,52 @@ margin-left: 20%;
   text-shadow: 0.05em 0.05em 0.05em rgba(0, 0, 0, 0.4);
   border: 3px black;
 }
+#title_whats{
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3vw;
+  color: white;
+  text-shadow: 0.05em 0.05em 0.05em rgba(0, 0, 0, 0.4);
+  border: 3px black;
+}
+#title_impacts{
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 5vw;
+  color: white;
+  text-shadow: 0.05em 0.05em 0.05em rgba(0, 0, 0, 0.4);
+  border: 3px black;
+}
+.one-slide {
+  border-radius: 3px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 1.1rem;
+  height: 300px;
+}
 #div_1{
   height: 70%; 
   padding-top: 4%;
   margin-left: 4%;
+  margin-bottom: 10%;
 }
 #box1{
   width: 50%;
   float: left;
+  top: 20%;
 }
 #box2{
   width: 50%;
   float: right;
+
 }
 .img-1{
   width: 40%;
@@ -101,7 +157,7 @@ margin-left: 20%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 60px;
+  margin-top: 20px;
   
 }
 #content{
@@ -139,8 +195,18 @@ footer a{
 .push{
   height: 20%;
 }
-
-
+.cards {
+  max-width: 40%;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+}
+.card {
+border-top: #0273a7; 
+ color: black;
+  padding: 1rem;
+  height: 4rem;
+}
 
 
 
@@ -170,10 +236,26 @@ footer a{
 
   }
   .push{
-    height: 20%;
+    height: 130%;
+    
   }
- 
-  
+  .push{
+    height: -50px;
+
+  }
+  #title_whats{
+    font-size: 5vw;
+
+  }
+
+  footer {
+    height: -10px;
+    
+    padding-bottom: 5px;
+    padding-top: 1px;
+    padding-left: 15px;
+   
+  }
 
 
 }
