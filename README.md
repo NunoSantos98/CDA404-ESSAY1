@@ -15,15 +15,7 @@ from an objective, scientific point of view, discussing the impacts, what's happ
 ## Wire Frames
 ---
 ## Colour choices
-
-To choose the right pallete it is important to have in mind some topics:
-
-* Choose the right dominant color for your website and brand.
-* Combine complementary colors to create your perfect color scheme.
-* Choose a background color that works for you.
-* Use color in the correct places on your website – like a pro.
-
-And the dominant colour was: ![#5DBCD2](https://imgrp2.xiaolee.net/i/aHR0cHM6Ly9wbGFjZWhvbGQuaXQvMTUvMTU4OUYwLzAwMDAwMD90ZXh0PSs=.jpg)`#5DBCD2` because the topic relate cold colours so a blue palette was the right choice.
+The dominant colour was: ![#5DBCD2](https://imgrp2.xiaolee.net/i/aHR0cHM6Ly9wbGFjZWhvbGQuaXQvMTUvMTU4OUYwLzAwMDAwMD90ZXh0PSs=.jpg)`#5DBCD2` because the topic relate cold colours so a blue palette was the right choice.
 
 ## Accessibility
 
@@ -62,5 +54,4 @@ are not the most enlightening.
 The method used was the development to the desktop version and after adjusting the website to a mobile version, with the help of "toggle device
 toolbar" on Google Chrome and, after this, in the first time testing the mobile version it was possible to know how many elements needed to be adjusted.
 * ### What informed your design choices?
-My design choices were to create a simple website just displaying what is important because "simple designs should be preferred" and for that, I used the Ockham's razor 
-principle and displaying in a hierarchy from the left to right using the F-Pattern.
+The design choice were to create a simple website just displaying what is important because "simple designs should be preferred", so it was used the Ockham's razor principle and displaying in a hierarchy from the left to right using the F-Pattern.
