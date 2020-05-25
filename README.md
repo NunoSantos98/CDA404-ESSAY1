@@ -29,7 +29,7 @@ that mimic the keyboard, such as speech input (not included yet).
 https://www.itgovernance.co.uk/eu-gdpr-uk-dpa-2018-uk-gdpr
 - talk DPA for the UK- go full tory and boast about the DPA's improvement on GDPR post brexit
 - 8 individual rights to users
-- outline the data that can be collected and 
+- outline the data that can be collected
 ### privacy policy
 
 ### EU/US law for international users
