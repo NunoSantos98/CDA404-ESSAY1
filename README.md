@@ -8,9 +8,8 @@ Repo: *(https://github.com/NunoSantos98/CDA404-ESSAY1)
 
 ## Background
 
-Many people don't know what it really is, either because of unreliable sources or because of 
-Intentional misinformation, leading to a series of <ins> myths about climate change</ins>. This Website contains, I discuss the topic 
-from an objective, scientific point of view, discussing the impacts, what's happening and why, response options, and some facts.
+Many people don't know what it is, either because of unreliable sources or because of 
+Intentional misinformation, leading to a series of <ins> myths about climate change</ins>. This Website contains and a discuss of  the topic from an objective, scientific point of view, discussing the impacts, what's happening and why, response options, and some facts.
 
 ## Wire Frames
 ---
